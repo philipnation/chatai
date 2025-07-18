@@ -139,16 +139,16 @@
                     },
                     body: JSON.stringify({
                         contents: [{
-                            parts: [{
-                                text: `Respond as an enlightened spiritual guide. The user asks: "${message}". 
-                                Keep it under 3 sentences.`
-                            }]
-
                             /*parts: [{
-                                text: `The user asks: "${message}". 
-                                Respond as a nigerian street guy and help the user with anything they need.
-                                `
+                                text: `Respond as an enlightened spiritual guide. The user asks: "${message}". 
+                                Provide a thoughtful response that encourages deeper understanding, using metaphors from nature where appropriate.
+                                Keep it under 3 sentences.`
                             }]*/
+
+                            parts: [{
+                                text: `"${message}". 
+                                `
+                            }]
                         }]
                     })
                 });
